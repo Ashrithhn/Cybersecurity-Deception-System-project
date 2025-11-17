@@ -1,0 +1,9 @@
+# cowrie.cfg.example
+# Minimal Cowrie example configuration. Rename to cowrie.cfg and update paths before use.
+[ssh]
+listen_port = 2222
+hostname = honeypot.example.local
+
+[output_jsonlog]
+enabled = true
+path = /var/log/cowrie/cowrie.json
